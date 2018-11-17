@@ -53,6 +53,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     private int numColumns;
     private View addButton;
     private View alreadyAddedText;
+    private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private StickerPack stickerPack;
     private View divider;
     private InterstitialAd mInterstitialAd;
@@ -216,6 +217,24 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         }
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        whiteListCheckAsyncTask = new WhiteListCheckAsyncTask(this);
+        whiteListCheckAsyncTask.execute(stickerPack);
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (whiteListCheckAsyncTask != null && !whiteListCheckAsyncTask.isCancelled()) {
+            whiteListCheckAsyncTask.cancel(true);
+        }
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
     static class WhiteListCheckAsyncTask extends AsyncTask<StickerPack, Void, Boolean> {
         private final WeakReference<StickerPackDetailsActivity> stickerPackDetailsActivityWeakReference;
 
@@ -242,4 +261,6 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
             }
         }
     }
+
+
 }

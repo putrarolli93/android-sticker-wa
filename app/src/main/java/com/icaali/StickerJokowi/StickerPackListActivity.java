@@ -40,6 +40,8 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private StickerPackListAdapter allStickerPacksListAdapter;
     private StickerPack pack;
     private InterstitialAd mInterstitialAd;
+    private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
+    private ArrayList<StickerPack> stickerPackList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +49,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sticker_pack_list);
         packRecyclerView = findViewById(R.id.sticker_pack_list);
-        ArrayList<StickerPack> stickerPackList = getIntent().getParcelableArrayListExtra(EXTRA_STICKER_PACK_LIST_DATA);
+        stickerPackList = getIntent().getParcelableArrayListExtra(EXTRA_STICKER_PACK_LIST_DATA);
         showStickerPackList(stickerPackList);
         initAdmob();
     }
@@ -172,6 +174,21 @@ public class StickerPackListActivity extends AddStickerPackActivity {
             int numColumns = Math.min(STICKER_PREVIEW_DISPLAY_LIMIT, max);
             allStickerPacksListAdapter.setMaxNumberOfStickersInARow(numColumns);
         }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (whiteListCheckAsyncTask != null && !whiteListCheckAsyncTask.isCancelled()) {
+            whiteListCheckAsyncTask.cancel(true);
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        whiteListCheckAsyncTask = new WhiteListCheckAsyncTask(this);
+        whiteListCheckAsyncTask.execute(stickerPackList.toArray(new StickerPack[stickerPackList.size()]));
     }
 
 
