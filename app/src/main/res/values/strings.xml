@@ -21,4 +21,9 @@
     <string name="add_pack_fail_prompt_update_whatsapp">Sticker pack not added. If you\'d like to add it, make sure you update to the latest version of WhatsApp.</string>
     <string name="add_pack_fail_prompt_update_play_link">Update</string>
     <string name="cannot_find_play_store">Google Play is not installed on the device.</string>
+
+    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ad_reward_id">ca-app-pub-3940256099942544/5224354917</string>
 </resources>
