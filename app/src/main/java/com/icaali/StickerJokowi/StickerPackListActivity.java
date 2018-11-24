@@ -33,7 +33,7 @@ import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.reward.RewardItem;
 import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 import com.google.android.gms.ads.reward.RewardedVideoAd;
-
+import com.icaali.ga.LoadAd;
 
 
 public class StickerPackListActivity extends AddStickerPackActivity implements RewardedVideoAdListener {
@@ -110,9 +110,10 @@ public class StickerPackListActivity extends AddStickerPackActivity implements R
         mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this);
         mRewardedVideoAd.setRewardedVideoAdListener(this);
         newRewardAd();
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(getString(R.string.ad_interstitial_id));
-        loadInterstitialAd();
+        LoadAd.getAd();
+//        mInterstitialAd = new InterstitialAd(this);
+//        mInterstitialAd.setAdUnitId(getString(R.string.ad_interstitial_id));
+//        loadInterstitialAd();
     }
 
     private void loadInterstitialAd(){
@@ -149,14 +150,15 @@ public class StickerPackListActivity extends AddStickerPackActivity implements R
         packRecyclerView.getViewTreeObserver().addOnGlobalLayoutListener(this::recalculateColumnCount);
     }
 
+    public void addStickerVroh() {
+        addStickerPackToWhatsApp(LoadAd.packIdentifier, LoadAd.packName);
+    }
+
     private final StickerPackListAdapter.OnAddButtonClickedListener onAddButtonClickedListener = pack -> {
         this.pack = pack;
-        if (mRewardedVideoAd.isLoaded()){
-            mRewardedVideoAd.show();
-        }
-        else if (mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-        }
+        LoadAd.packName = pack.name;
+        LoadAd.packIdentifier = pack.identifier;
+        LoadAd.showInterstitial();
     };
 
     private void recalculateColumnCount() {
