@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.icaali.StickerJokowi">
+    package="com.icaali.StickerIslami">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
+        android:name="com.icaali.ga.GlobalApplications"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
@@ -18,35 +19,35 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713"/>
-        <activity android:name="com.icaali.StickerJokowi.EntryActivity">
+        <activity android:name="com.icaali.StickerIslami.EntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.icaali.StickerJokowi.StickerPackListActivity"
+            android:name="com.icaali.StickerIslami.StickerPackListActivity"
             android:label="@string/title_activity_sticker_packs_list" />
         <activity
-            android:name="com.icaali.StickerJokowi.StickerPackDetailsActivity"
-            android:parentActivityName="com.icaali.StickerJokowi.StickerPackListActivity"
+            android:name="com.icaali.StickerIslami.StickerPackDetailsActivity"
+            android:parentActivityName="com.icaali.StickerIslami.StickerPackListActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.icaali.StickerJokowi.StickerPackListActivity" />
+                android:value="com.icaali.StickerIslami.StickerPackListActivity" />
         </activity>
         <activity
-            android:name="com.icaali.StickerJokowi.StickerPackInfoActivity"
+            android:name="com.icaali.StickerIslami.StickerPackInfoActivity"
             android:label="@string/title_activity_sticker_pack_info"
-            android:parentActivityName="com.icaali.StickerJokowi.StickerPackDetailsActivity"
+            android:parentActivityName="com.icaali.StickerIslami.StickerPackDetailsActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.icaali.StickerJokowi.StickerPackDetailsActivity" />
+                android:value="com.icaali.StickerIslami.StickerPackDetailsActivity" />
         </activity>
 
         <provider
-            android:name="com.icaali.StickerJokowi.StickerContentProvider"
+            android:name="com.icaali.StickerIslami.StickerContentProvider"
             android:authorities="${contentProviderAuthority}"
             android:enabled="true"
             android:exported="true"
