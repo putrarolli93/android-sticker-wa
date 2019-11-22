@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
@@ -7,163 +12,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c02bcb6-9681-4000-9005-de3c39cbc102" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/3/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/3/18.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/3/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/3/21.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/3/3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/3/4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/3/5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/4/10.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/4/6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/4/7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/4/8.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/4/9.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/5/319.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/5/320.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/5/325.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/ga/GlobalApplications.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/ga/LoadAd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/15.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/16.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/20.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/22.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/23.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10/allah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/16.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/17.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/18.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/19.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/20.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/22.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/23.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/24.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/25.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/26.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/30.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/319.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/320.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/325.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/41.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/49.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11/allah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/10.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/11.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/12.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/13.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/14.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/16.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/17.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/18.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/19.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/21.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12/allah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/429.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/521.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/529.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7/allah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/429.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/521.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/529.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8/allah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/16.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/17.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/18.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/19.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/20.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/22.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/23.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/24.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/25.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/26.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/30.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/319.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/320.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/325.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/41.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/49.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/7.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/8.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/9.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9/allah.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_animated_base_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_animated_drawable_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_animated_webp_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_drawee_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fbcore_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fresco_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_base_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_webpsupport_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_soloader_soloader_0_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_17_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_base_17_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_17_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_17_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_16_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_api_16_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_tasks_1_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-sticker-wa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android-sticker-wa.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1/1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1/1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1/2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1/3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1/jokowi_icon_72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/2/4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/2/5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/2/6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/2/jokowi_icon_72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/3/7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/3/8.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/3/9.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/3/jokowi_icon_72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/AddStickerPackActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/AddStickerPackActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/BaseActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/BottomFadingRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/BottomFadingRecyclerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/ContentFileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/ContentFileParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/EntryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/EntryActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/Sticker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/Sticker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerContentProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerContentProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPackDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPackDetailsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPackInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPackInfoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPackListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPackListActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPackListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPackListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPackListItemViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPackListItemViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPackLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPackLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPackValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPackValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPreviewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPreviewAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/StickerPreviewViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/StickerPreviewViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerJokowi/WhitelistCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/StickerIslami/WhitelistCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/icaali/fcm/MyFirebaseMessagingService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/icaali/fcm/MyFirebaseMessagingService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sticker_pack_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sticker_pack_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sticker_pack_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sticker_pack_list.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -175,9 +136,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="643bcc62" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -191,7 +152,54 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sticker_pack_info.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_entry.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sticker_pack_list.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/contents.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="1225" column="25" selection-start-line="1225" selection-start-column="25" selection-end-line="1225" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>webp</find>
+      <find>minSdkVersion</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -202,6 +210,9 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/google-services.json" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/contents.json" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sticker_pack_list.xml" />
       </list>
     </option>
   </component>
@@ -216,38 +227,122 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="android-sticker-wa-islami" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-sticker-wa-islami" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="icaali" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-stiker-wa-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-stiker-wa-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="android-sticker-wa-islami" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk2" />
-    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/assets" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -356,10 +451,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Resources Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921507" visible="true" weight="0.24816327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921507" visible="true" weight="0.24749643" />
       <window_info id="Structure" order="1" sideWeight="0.50078493" side_tool="true" weight="0.24281392" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -367,6 +462,7 @@
       <window_info id="Build Variants" order="5" side_tool="true" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
+      <window_info id="Resources Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -375,12 +471,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23048328" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2303523" />
       <window_info anchor="bottom" id="Logcat" order="9" />
-      <window_info anchor="bottom" id="Android Profiler" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="11" weight="0.34386617" />
+      <window_info anchor="bottom" id="Android Profiler" order="10" />
+      <window_info anchor="bottom" id="Build" order="11" visible="true" weight="0.34281844" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Assistant" weight="0.3322449" />
+      <window_info anchor="right" id="Preview" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,6 +485,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Assistant" order="8" weight="0.3322449" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -415,14 +512,8 @@
         <state relative-caret-position="-1125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android-sticker-wa-jokowi.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android-sticker-wa-islami.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/android-sticker-wa-jokowi.iml" />
+    <entry file="file://$PROJECT_DIR$/android-sticker-wa-islami.iml" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-924" />
@@ -431,9 +522,57 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/icaali/fcm/MyFirebaseInstanceIdService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504" />
+        <state relative-caret-position="52">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/google-services.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1019">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sticker_pack_info.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_entry.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/contents.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="1225" column="25" selection-start-line="1225" selection-start-column="25" selection-end-line="1225" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sticker_pack_list.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
       </provider>
     </entry>
   </component>
