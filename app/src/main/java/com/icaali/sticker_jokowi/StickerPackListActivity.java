@@ -24,10 +24,6 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.reward.RewardItem;
-import com.google.android.gms.ads.reward.RewardedVideoAd;
-import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 import com.icaali.ga.LoadAd;
 
 import java.lang.ref.WeakReference;
@@ -36,7 +32,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class StickerPackListActivity extends AddStickerPackActivity implements RewardedVideoAdListener {
+public class StickerPackListActivity extends AddStickerPackActivity{
     public static final String EXTRA_STICKER_PACK_LIST_DATA = "sticker_pack_list";
     private static final int STICKER_PREVIEW_DISPLAY_LIMIT = 5;
     private LinearLayoutManager packLayoutManager;
@@ -46,7 +42,6 @@ public class StickerPackListActivity extends AddStickerPackActivity implements R
     private InterstitialAd mInterstitialAd;
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private ArrayList<StickerPack> stickerPackList;
-    private RewardedVideoAd mRewardedVideoAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,35 +101,8 @@ public class StickerPackListActivity extends AddStickerPackActivity implements R
         AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = LoadAd.getBannerAdRequest();
         mAdView.loadAd(adRequest);
-        mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this);
-        mRewardedVideoAd.setRewardedVideoAdListener(this);
-        if (!mRewardedVideoAd.isLoaded()) {
-            newRewardAd();
-        }
-//        mInterstitialAd = new InterstitialAd(this);
-//        mInterstitialAd.setAdUnitId(getString(R.string.ad_interstitial_id));
-//        loadInterstitialAd();
+        mInterstitialAd = LoadAd.getInterstitialAd();
     }
-
-//    private void loadInterstitialAd(){
-//        newInterstitialAd();
-//        mInterstitialAd.setAdListener(new AdListener() {
-//            @Override
-//            public void onAdClosed() {
-//                newInterstitialAd();
-//                addStickerPackToWhatsApp(pack.identifier, pack.name);
-//            }
-//        });
-//    }
-
-    private void newRewardAd(){
-        mRewardedVideoAd.loadAd(getString(R.string.ad_reward_id),
-                new AdRequest.Builder().build());
-    }
-
-//    private void newInterstitialAd(){
-//        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-//    }
 
     private void showStickerPackList(List<StickerPack> stickerPackList) {
         allStickerPacksListAdapter = new StickerPackListAdapter(stickerPackList, onAddButtonClickedListener);
@@ -149,18 +117,9 @@ public class StickerPackListActivity extends AddStickerPackActivity implements R
         packRecyclerView.setLayoutManager(packLayoutManager);
         packRecyclerView.getViewTreeObserver().addOnGlobalLayoutListener(this::recalculateColumnCount);
     }
-
-//    public void addStickerVroh() {
-//        addStickerPackToWhatsApp(LoadAd.packIdentifier, LoadAd.packName);
-//    }
-
     private final StickerPackListAdapter.OnAddButtonClickedListener onAddButtonClickedListener = pack -> {
         this.pack = pack;
-        mInterstitialAd = LoadAd.getInterstitialAd();
-        if (mRewardedVideoAd.isLoaded()){
-            mRewardedVideoAd.show();
-        }
-        else if (mInterstitialAd.isLoaded()){
+        if (mInterstitialAd.isLoaded()){
             mInterstitialAd.setAdListener(new AdListener() {
                 @Override
                 public void onAdClosed() {
@@ -173,6 +132,8 @@ public class StickerPackListActivity extends AddStickerPackActivity implements R
         }else {
             addStickerPackToWhatsApp(pack.identifier, pack.name);
         }
+
+        mInterstitialAd = LoadAd.getInterstitialAd();
     };
 
     private void recalculateColumnCount() {
@@ -188,7 +149,6 @@ public class StickerPackListActivity extends AddStickerPackActivity implements R
 
     @Override
     protected void onPause() {
-        mRewardedVideoAd.pause(this);
         super.onPause();
         if (whiteListCheckAsyncTask != null && !whiteListCheckAsyncTask.isCancelled()) {
             whiteListCheckAsyncTask.cancel(true);
@@ -197,43 +157,9 @@ public class StickerPackListActivity extends AddStickerPackActivity implements R
 
     @Override
     protected void onResume() {
-        mRewardedVideoAd.resume(this);
         super.onResume();
         whiteListCheckAsyncTask = new WhiteListCheckAsyncTask(this);
         whiteListCheckAsyncTask.execute(stickerPackList.toArray(new StickerPack[stickerPackList.size()]));
-    }
-
-    @Override
-    public void onRewarded(RewardItem reward) {
-        addStickerPackToWhatsApp(pack.identifier, pack.name);
-    }
-
-    @Override
-    public void onRewardedVideoAdLeftApplication() {
-    }
-
-    @Override
-    public void onRewardedVideoAdClosed() {
-    }
-
-    @Override
-    public void onRewardedVideoAdFailedToLoad(int errorCode) {
-    }
-
-    @Override
-    public void onRewardedVideoAdLoaded() {
-    }
-
-    @Override
-    public void onRewardedVideoAdOpened() {
-    }
-
-    @Override
-    public void onRewardedVideoStarted() {
-    }
-
-    @Override
-    public void onRewardedVideoCompleted() {
     }
 
     @Override
