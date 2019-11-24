@@ -45,6 +45,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.icaali.StickerIslami.StickerPackDetailsActivity" />
         </activity>
+        <activity android:name="com.icaali.ga.LoadAd" />
 
         <provider
             android:name="com.icaali.StickerIslami.StickerContentProvider"

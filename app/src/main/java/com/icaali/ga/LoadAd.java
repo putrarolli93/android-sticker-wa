@@ -12,12 +12,6 @@ public class LoadAd extends StickerPackListActivity {
     public static AdRequest adRequest;
     public static boolean mInterstitialAdIsLoading = false;
     private static boolean adIsRunning = false;
-//    private static int countLoadedInterstitial = 0;
-//    private static int countLoadedBanner = 0;
-//    private static boolean sShowOnLoad;
-//    private static boolean sIsUpdate;
-//    public static String packIdentifier;
-//    public static String packName;
 
     private LoadAd(){
         MobileAds.initialize(GlobalApplications.getAppContext(), GlobalApplications.getAppContext().getString(R.string.ad_app_id));
@@ -62,19 +56,4 @@ public class LoadAd extends StickerPackListActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         sInterstitialAd.loadAd(adRequest);
     }
-
-//    public static void updateAd(){
-//        sIsUpdate = true;
-//        new LoadAd();
-//    }
-
-//    public static void showInterstitial() {
-//        if (sInterstitialAd != null && sInterstitialAd.isLoaded()) {
-//            sInterstitialAd.show();
-//        }
-//    }
-
-//    public static void setShowOnLoad(boolean showOnLoad) {
-//        LoadAd.sShowOnLoad = showOnLoad;
-//    }
 }
