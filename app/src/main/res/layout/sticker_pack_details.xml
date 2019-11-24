@@ -146,7 +146,9 @@
         xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
         ads:adSize="BANNER"
         ads:adUnitId="@string/ad_banner_id">
     </com.google.android.gms.ads.AdView>
