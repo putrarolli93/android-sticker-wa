@@ -13,7 +13,7 @@ public class LoadAd extends StickerPackListActivity {
     public static boolean mInterstitialAdIsLoading = false;
     private static boolean adIsRunning = false;
 
-    private LoadAd(){
+    public LoadAd(){
         MobileAds.initialize(GlobalApplications.getAppContext(), GlobalApplications.getAppContext().getString(R.string.ad_app_id));
         sInterstitialAd = newInterstitialAd();
         loadInterstitial();
