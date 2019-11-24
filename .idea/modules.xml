@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-sticker-wa-funny.iml" filepath="$PROJECT_DIR$/android-sticker-wa-funny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/android-sticker-wa-funny-app.iml" filepath="$PROJECT_DIR$/app/android-sticker-wa-funny-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

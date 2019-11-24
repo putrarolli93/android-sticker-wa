@@ -24,8 +24,6 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.reward.RewardItem;
-import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 import com.icaali.ga.LoadAd;
 
 import java.lang.ref.WeakReference;
@@ -34,7 +32,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class StickerPackListActivity extends AddStickerPackActivity implements RewardedVideoAdListener {
+public class StickerPackListActivity extends AddStickerPackActivity {
     public static final String EXTRA_STICKER_PACK_LIST_DATA = "sticker_pack_list";
     private static final int STICKER_PREVIEW_DISPLAY_LIMIT = 5;
     private LinearLayoutManager packLayoutManager;
@@ -162,39 +160,6 @@ public class StickerPackListActivity extends AddStickerPackActivity implements R
         super.onResume();
         whiteListCheckAsyncTask = new WhiteListCheckAsyncTask(this);
         whiteListCheckAsyncTask.execute(stickerPackList.toArray(new StickerPack[stickerPackList.size()]));
-    }
-
-    @Override
-    public void onRewarded(RewardItem reward) {
-        addStickerPackToWhatsApp(pack.identifier, pack.name);
-    }
-
-    @Override
-    public void onRewardedVideoAdLeftApplication() {
-    }
-
-    @Override
-    public void onRewardedVideoAdClosed() {
-    }
-
-    @Override
-    public void onRewardedVideoAdFailedToLoad(int errorCode) {
-    }
-
-    @Override
-    public void onRewardedVideoAdLoaded() {
-    }
-
-    @Override
-    public void onRewardedVideoAdOpened() {
-    }
-
-    @Override
-    public void onRewardedVideoStarted() {
-    }
-
-    @Override
-    public void onRewardedVideoCompleted() {
     }
 
     @Override

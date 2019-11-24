@@ -27,13 +27,11 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.reward.RewardItem;
-import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 import com.icaali.ga.LoadAd;
 
 import java.lang.ref.WeakReference;
 
-public class StickerPackDetailsActivity extends AddStickerPackActivity  implements RewardedVideoAdListener {
+public class StickerPackDetailsActivity extends AddStickerPackActivity {
 
     /**
      * Do not change below values of below 3 lines as this is also used by WhatsApp
@@ -236,38 +234,5 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity  implemen
                 stickerPackDetailsActivity.updateAddUI(isWhitelisted);
             }
         }
-    }
-
-    @Override
-    public void onRewarded(RewardItem reward) {
-        addStickerPackToWhatsApp(stickerPack.identifier, stickerPack.name);
-    }
-
-    @Override
-    public void onRewardedVideoAdLeftApplication() {
-    }
-
-    @Override
-    public void onRewardedVideoAdClosed() {
-    }
-
-    @Override
-    public void onRewardedVideoAdFailedToLoad(int errorCode) {
-    }
-
-    @Override
-    public void onRewardedVideoAdLoaded() {
-    }
-
-    @Override
-    public void onRewardedVideoAdOpened() {
-    }
-
-    @Override
-    public void onRewardedVideoStarted() {
-    }
-
-    @Override
-    public void onRewardedVideoCompleted() {
     }
 }
