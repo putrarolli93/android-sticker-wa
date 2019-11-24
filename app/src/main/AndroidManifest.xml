@@ -18,7 +18,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5079073523461972~6808100750"/>
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
         <activity android:name="com.icaali.StickerFunny.EntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,6 +45,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.icaali.StickerFunny.StickerPackDetailsActivity" />
         </activity>
+        <activity android:name="com.icaali.ga.LoadAd" />
 
         <provider
             android:name="com.icaali.StickerFunny.StickerContentProvider"

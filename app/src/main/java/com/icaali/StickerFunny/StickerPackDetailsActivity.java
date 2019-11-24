@@ -27,9 +27,7 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.reward.RewardItem;
-import com.google.android.gms.ads.reward.RewardedVideoAd;
 import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 import com.icaali.ga.LoadAd;
 
@@ -61,7 +59,6 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity  implemen
     private StickerPack stickerPack;
     private View divider;
     private InterstitialAd mInterstitialAd;
-    private RewardedVideoAd mRewardedVideoAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,11 +67,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity  implemen
         AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = LoadAd.getBannerAdRequest();
         mAdView.loadAd(adRequest);
-        mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this);
-        mRewardedVideoAd.setRewardedVideoAdListener(this);
         mInterstitialAd = LoadAd.getInterstitialAd();
-//        mInterstitialAd.setAdUnitId(getString(R.string.ad_interstitial_id));
-//        loadInterstitialAd();
 
         boolean showUpButton = getIntent().getBooleanExtra(EXTRA_SHOW_UP_BUTTON, false);
         stickerPack = getIntent().getParcelableExtra(EXTRA_STICKER_PACK_DATA);
@@ -100,11 +93,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity  implemen
         packTrayIcon.setImageURI(StickerPackLoader.getStickerAssetUri(stickerPack.identifier, stickerPack.trayImageFile));
         packSizeTextView.setText(Formatter.formatShortFileSize(this, stickerPack.getTotalSize()));
         addButton.setOnClickListener(v -> {
-            mInterstitialAd = LoadAd.getInterstitialAd();
-            if (mRewardedVideoAd.isLoaded()){
-                mRewardedVideoAd.show();
-            }
-            else if (mInterstitialAd.isLoaded()) {
+            if (mInterstitialAd.isLoaded()) {
                 mInterstitialAd.setAdListener(new AdListener() {
                     @Override
                     public void onAdClosed() {
@@ -117,6 +106,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity  implemen
             }else{
                 addStickerPackToWhatsApp(stickerPack.identifier, stickerPack.name);
             }
+            mInterstitialAd = LoadAd.getInterstitialAd();
         });
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(showUpButton);
@@ -124,18 +114,6 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity  implemen
         }
 
     }
-
-//    private void loadInterstitialAd(){
-//        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-//        mInterstitialAd.setAdListener(new AdListener() {
-//            @Override
-//            public void onAdClosed() {
-//                loadInterstitialAd();
-//                addStickerPackToWhatsApp(stickerPack.identifier, stickerPack.name);
-//            }
-//        });
-//    }
-
 
     private void launchInfoActivity(String publisherWebsite, String publisherEmail, String privacyPolicyWebsite, String trayIconUriString) {
         Intent intent = new Intent(StickerPackDetailsActivity.this, StickerPackInfoActivity.class);
@@ -217,14 +195,12 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity  implemen
 
     @Override
     protected void onResume() {
-        mRewardedVideoAd.resume(this);
         super.onResume();
         whiteListCheckAsyncTask = new WhiteListCheckAsyncTask(this);
         whiteListCheckAsyncTask.execute(stickerPack);
     }
     @Override
     protected void onPause() {
-        mRewardedVideoAd.pause(this);
         super.onPause();
         if (whiteListCheckAsyncTask != null && !whiteListCheckAsyncTask.isCancelled()) {
             whiteListCheckAsyncTask.cancel(true);
