@@ -14,11 +14,11 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.icaali.StickerDakwahIslam"
+        applicationId "com.icaali.StickerDakwahIslamBismillah"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
-        versionName "1.1"
+        versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
         // Creates a placeholder property to use in the manifest.
@@ -104,7 +104,8 @@ dependencies {
     implementation 'com.facebook.fresco:webpsupport:1.10.0'
     implementation 'com.facebook.fresco:animated-webp:1.10.0'
     implementation 'com.facebook.fresco:webpsupport:1.10.0'
-    implementation 'com.google.android.gms:play-services-ads:17.1.0'
+    implementation 'com.google.android.gms:play-services-ads:17.1.1'
+    implementation 'com.google.firebase:firebase-core:16.0.5'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
 }

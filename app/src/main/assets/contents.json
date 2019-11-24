@@ -1,14 +1,14 @@
 {
-  "android_play_store_link": "",
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.icaali.StickerDakwahIslamBismillah",
   "ios_app_store_link": "",
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "Meme sticker",
+      "name": "Sticker 1",
       "publisher": "icaali",
-      "tray_image_file": "jokowi_icon_72.png",
-      "publisher_email":"",
-      "publisher_website": "",
+      "tray_image_file": "icon_1_96.png",
+      "publisher_email":"bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerDakwahIslamBismillah",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -23,19 +23,7 @@
         {
           "image_file": "3.webp",
           "emojis": ["😄","😀","🙂"]
-        }
-      ]
-    },
-    {
-      "identifier": "2",
-      "name": "Meme sticker",
-      "publisher": "icaali",
-      "tray_image_file": "jokowi_icon_72.png",
-      "publisher_email":"",
-      "publisher_website": "",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
-      "stickers": [
+        },
         {
           "image_file": "4.webp",
           "emojis": ["😄","😀","🙂"]
@@ -47,29 +35,73 @@
         {
           "image_file": "6.webp",
           "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "9.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "11.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": ["😄","😀","🙂"]
         }
       ]
     },
     {
-      "identifier": "3",
-      "name": "Meme sticker",
+      "identifier": "2",
+      "name": "Sticker 2",
       "publisher": "icaali",
-      "tray_image_file": "jokowi_icon_72.png",
-      "publisher_email":"",
-      "publisher_website": "",
+      "tray_image_file": "icon_2_96.png",
+      "publisher_email":"bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerDakwahIslamBismillah",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "7.webp",
+          "image_file": "13.webp",
           "emojis": ["😄","😀","🙂"]
         },
         {
-          "image_file": "8.webp",
+          "image_file": "14.webp",
           "emojis": ["😄","😀","🙂"]
         },
         {
-          "image_file": "9.webp",
+          "image_file": "15.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "16.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "17.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "18.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "19.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "20.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "21.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "24.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "25.webp",
           "emojis": ["😄","😀","🙂"]
         }
       ]
