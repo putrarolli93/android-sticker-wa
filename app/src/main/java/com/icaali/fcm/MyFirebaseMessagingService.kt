@@ -10,8 +10,8 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.support.v4.app.NotificationCompat
-import com.icaali.StickerJokowi.R
-import com.icaali.StickerJokowi.StickerPackListActivity
+import com.icaali.sticker_jokowi.R
+import com.icaali.sticker_jokowi.StickerPackListActivity
 
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {
