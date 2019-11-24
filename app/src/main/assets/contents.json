@@ -1,0 +1,125 @@
+{
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.icaali.StickerPrabowo",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Prabowo Sandi 1",
+      "publisher": "icaali",
+      "tray_image_file": "icon.png",
+      "publisher_email":"bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerPrabowo",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "11.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "1.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "2.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": ["😄","😀","🙂"]
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "Prabowo Sandi 2",
+      "publisher": "icaali",
+      "tray_image_file": "icon.png",
+      "publisher_email":"bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerPrabowo",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "13.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "14.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "1.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "2.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": ["😄","😀","🙂"]
+        }
+      ]
+    },
+    {
+      "identifier": "3",
+      "name": "Prabowo Sandi 3",
+      "publisher": "icaali",
+      "tray_image_file": "icon.png",
+      "publisher_email":"bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerPrabowo",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "15.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "1.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "2.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": ["😄","😀","🙂"]
+        }
+      ]
+    },{
+      "identifier": "4",
+      "name": "Prabowo Sandi 4",
+      "publisher": "icaali",
+      "tray_image_file": "icon.png",
+      "publisher_email":"bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerPrabowo",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "16.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "1.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "2.webp",
+          "emojis": ["😄","😀","🙂"]
+        },
+        {
+          "image_file": "3.webp",
+          "emojis": ["😄","😀","🙂"]
+        }
+      ]
+    }
+  ]
+}
