@@ -1,0 +1,635 @@
+{
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Funny",
+      "publisher": "icaali",
+      "tray_image_file": "meme.png",
+      "publisher_email":"bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [{
+        "image_file": "26_meme.webp",
+        "emojis": ["😌"]
+      },{
+        "image_file": "11_meme.webp",
+        "emojis": ["😆","🤣","😂"]
+      },
+        {
+          "image_file": "13_meme.webp",
+          "emojis": ["😏"]
+        },
+        {
+          "image_file": "01_meme.webp",
+          "emojis": ["😕","😑"]
+        },{
+          "image_file": "06_meme.webp",
+          "emojis": ["🙄"]
+        },
+        {
+          "image_file": "02_meme.webp",
+          "emojis": ["💰","💵","🤑"]
+        },
+        {
+          "image_file": "03_meme.webp",
+          "emojis": ["😱","😳"]
+        },
+        {
+          "image_file": "04_meme.webp",
+          "emojis": ["🙆‍","😤"]
+        },
+        {
+          "image_file": "05_meme.webp",
+          "emojis": ["🤔"]
+        },
+        {
+          "image_file": "07_meme.webp",
+          "emojis": ["🍸","🍾"]
+        },
+        {
+          "image_file": "08_meme.webp",
+          "emojis": ["💰","💵","🤑"]
+        },
+        {
+          "image_file": "09_meme.webp",
+          "emojis": ["😜","😉","😏"]
+        },
+        {
+          "image_file": "10_meme.webp",
+          "emojis": ["😬","✊"]
+        },
+        {
+          "image_file": "14_meme.webp",
+          "emojis": ["🤦‍"]
+        },
+        {
+          "image_file": "15_meme.webp",
+          "emojis": ["🤦‍"]
+        },
+        {
+          "image_file": "16_meme.webp",
+          "emojis": ["👍"]
+        },
+        {
+          "image_file": "17_meme.webp",
+          "emojis": ["👍"]
+        },
+        {
+          "image_file": "18_meme.webp",
+          "emojis": ["👍"]
+        },
+        {
+          "image_file": "19_meme.webp",
+          "emojis": ["👐","🙌"]
+        },
+        {
+          "image_file": "20_meme.webp",
+          "emojis": ["🤴","🏆","🥇"]
+        },
+        {
+          "image_file": "21_meme.webp",
+          "emojis": ["😍","😘"]
+        },
+        {
+          "image_file": "23_meme.webp",
+          "emojis": ["😒","😔","😕"]
+        },
+        {
+          "image_file": "24_meme.webp",
+          "emojis": ["😡","😤","😳"]
+        },
+        {
+          "image_file": "25_meme.webp",
+          "emojis": ["😋","😏"]
+        },
+        {
+          "image_file": "27_meme.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "28_meme.webp",
+          "emojis": ["😬"]
+        },
+        {
+          "image_file": "29_meme.webp",
+          "emojis": ["🐶"]
+        },
+        {
+          "image_file": "30_meme.webp",
+          "emojis": ["😳"]
+        }
+      ]
+    },
+    {
+    "identifier": "doge",
+    "name": "Doge",
+    "publisher": "icaali",
+    "tray_image_file": "doge.png",
+     "publisher_email": "bondan13@gmail.com",
+    "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+    "privacy_policy_website": "",
+    "license_agreement_website": "",
+    "stickers": [{
+      "image_file": "5845e5dcfb0b0755fa99d7e4.webp",
+      "emojis": ["😖","😠","✋"]
+    },
+      {
+        "image_file": "5845e5e9fb0b0755fa99d7e5.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e5fbfb0b0755fa99d7e6.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e6b1fb0b0755fa99d7f0.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e6cffb0b0755fa99d7f1.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e6e4fb0b0755fa99d7f2.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e69dfb0b0755fa99d7ef.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e608fb0b0755fa99d7e7.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e614fb0b0755fa99d7e8.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e635fb0b0755fa99d7e9.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e643fb0b0755fa99d7ea.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e650fb0b0755fa99d7eb.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+
+      {
+        "image_file": "5845e673fb0b0755fa99d7ed.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e687fb0b0755fa99d7ee.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+      {
+        "image_file": "5845e755fb0b0755fa99d7f3.webp",
+        "emojis": ["😖","😠","✋"]
+      }
+    ]
+  },
+    {
+      "identifier": "3",
+      "name": "Meme Face",
+      "publisher": "icaali",
+      "tray_image_file": "meme_face.png",
+      "publisher_email":"bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_meme_face.webp",
+          "emojis": ["😈","😆"]
+        },
+        {
+          "image_file": "02_meme_face.webp",
+          "emojis": ["😈","😟"]
+        },
+        {
+          "image_file": "03_meme_face.webp",
+          "emojis": ["🤣","😂","😆"]
+        },
+        {
+          "image_file": "04_meme_face.webp",
+          "emojis": ["😞","😔","😟"]
+        },
+        {
+          "image_file": "05_meme_face.webp",
+          "emojis": ["☹","🙁"]
+        },
+        {
+          "image_file": "06_meme_face.webp",
+          "emojis": ["🤔"]
+        },
+        {
+          "image_file": "07_meme_face.webp",
+          "emojis": ["👍"]
+        },
+        {
+          "image_file": "08_meme_face.webp",
+          "emojis": ["😇"]
+        },
+        {
+          "image_file": "09_meme_face.webp",
+          "emojis": ["😍","😂"]
+        },
+        {
+          "image_file": "10_meme_face.webp",
+          "emojis": ["😭","😪"]
+        },
+        {
+          "image_file": "11_meme_face.webp",
+          "emojis": ["😋"]
+        },
+        {
+          "image_file": "12_meme_face.webp",
+          "emojis": ["😐","😑"]
+        },
+        {
+          "image_file": "13_meme_face.webp",
+          "emojis": ["😡"]
+        },
+        {
+          "image_file": "14_meme_face.webp",
+          "emojis": ["😱"]
+        },
+        {
+          "image_file": "15_meme_face.webp",
+          "emojis": ["😭","😍"]
+        },
+        {
+          "image_file": "16_meme_face.webp",
+          "emojis": ["🌈","😍"]
+        },
+        {
+          "image_file": "17_meme_face.webp",
+          "emojis": ["🙏"]
+        },
+        {
+          "image_file": "18_meme_face.webp",
+          "emojis": ["🙏"]
+        },
+        {
+          "image_file": "19_meme_face.webp",
+          "emojis": ["😢","😥"]
+        },
+        {
+          "image_file": "20_meme_face.webp",
+          "emojis": ["😲","😧","😎"]
+        },
+        {
+          "image_file": "21_meme_face.webp",
+          "emojis": ["😫","😩"]
+        },
+        {
+          "image_file": "22_meme_face.webp",
+          "emojis": ["😕","😑"]
+        },
+        {
+          "image_file": "23_meme_face.webp",
+          "emojis": ["😎","🍷","🎩"]
+        },
+        {
+          "image_file": "24_meme_face.webp",
+          "emojis": ["🎩","🤠"]
+        },
+        {
+          "image_file": "25_meme_face.webp",
+          "emojis": ["😑","😐"]
+        },
+        {
+          "image_file": "26_meme_face.webp",
+          "emojis": ["🤤","😑"]
+        },
+        {
+          "image_file": "27_meme_face.webp",
+          "emojis": ["😐","😑"]
+        },
+        {
+          "image_file": "28_meme_face.webp",
+          "emojis": ["😒","😕"]
+        },
+        {
+          "image_file": "29_meme_face.webp",
+          "emojis": ["😐","😑","💪"]
+        },
+        {
+          "image_file": "30_meme_face.webp",
+          "emojis": ["💪","😎"]
+        }
+      ]
+    },
+    {
+
+      "identifier": "gabethedog",
+      "name": "Gabe The Dog",
+      "publisher": "icaali",
+      "tray_image_file": "gabethedog.png",
+       "publisher_email": "bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [{
+        "image_file": "584b1a0d526b8582f1dc7d30.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+        {
+          "image_file": "584b1a1e526b8582f1dc7d32.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "584b1a17526b8582f1dc7d31.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "584b1a25526b8582f1dc7d33.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "588a4ccf528ea3cc60d3c4a5.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "588a41bb528ea3cc60d3c4a4.webp",
+          "emojis": ["😖","😠","✋"]
+        }
+      ]
+    },
+    {
+
+      "identifier": "trollfaces",
+      "name": "Troll Faces",
+      "publisher": "icaali",
+      "tray_image_file": "trollfaces.png",
+       "publisher_email": "bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "580b585b2edbce24c47b2a2b.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "580b585b2edbce24c47b2a2d.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "580b585b2edbce24c47b2a2e.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "580b585b2edbce24c47b2a2f.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "580b585b2edbce24c47b2a27.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "580b585b2edbce24c47b2a29.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "580b585b2edbce24c47b2a32.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "588359a32c9eb99faafea8bc.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "588359d52c9eb99faafea8bd.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5883592d2c9eb99faafea8b9.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5883598f2c9eb99faafea8bb.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "588359132c9eb99faafea8b8.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "588359402c9eb99faafea8ba.webp",
+          "emojis": ["😖","😠","✋"]
+        }
+      ]
+    },
+    {
+
+      "identifier": "grumpycat",
+      "name": "Grumpy Cat",
+      "publisher": "icaali",
+      "tray_image_file": "grumpycat.png",
+       "publisher_email": "bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [{
+        "image_file": "5845e0f37733c3558233c0e9.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+        {
+          "image_file": "5845e10e7733c3558233c0ea.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5845e13e7733c3558233c0ec.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5845e14e7733c3558233c0ed.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5845e17e7733c3558233c0ef.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5845e1257733c3558233c0eb.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5845e1677733c3558233c0ee.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5845e1997733c3558233c0f0.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5845e3207733c3558233c0f1.webp",
+          "emojis": ["😖","😠","✋"]
+        }
+
+      ]
+    },
+    {
+      "identifier": "mixedmemes",
+      "name": "Yeah",
+      "publisher": "icaali",
+      "tray_image_file": "mixedmemes.png",
+       "publisher_email": "bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [{
+        "image_file": "58a264160264f037f306db69.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+        {
+          "image_file": "589b4da582250818d81e748f.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "589b561082250818d81e7490.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58967def0803320bf17c2fb6.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58967e8c0803320bf17c2fb7.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58967e9b0803320bf17c2fb8.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58967ea80803320bf17c2fb9.webp",
+          "emojis": ["😖","😠","✋"]
+        }
+
+      ]
+    },
+    {
+
+      "identifier": "saitamaok",
+      "name": "Saitama",
+      "publisher": "icaali",
+      "tray_image_file": "saitamaok.png",
+       "publisher_email": "bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [{
+        "image_file": "58582babf034562c582205fe.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+        {
+          "image_file": "58582c1cf034562c58220600.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58582c01f034562c582205ff.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58582c39f034562c58220601.webp",
+          "emojis": ["😖","😠","✋"]
+        }
+      ]
+    },
+    {
+
+      "identifier": "thuglife",
+      "name": "Thug Life",
+      "publisher": "icaali",
+      "tray_image_file": "thuglife.png",
+       "publisher_email": "bondan13@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/details?id=com.icaali.StickerFunny",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [{
+        "image_file": "58499bdfe9678476f6134575.webp",
+        "emojis": ["😖","😠","✋"]
+      },
+        {
+          "image_file": "58499bfbe9678476f6134576.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58499c03e9678476f6134577.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58499c8de9678476f613457b.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58499c69e9678476f6134578.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58499ca8e9678476f613457c.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58499e0cb89d73775876620b.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58499e18b89d73775876620c.webp",
+          "emojis": ["😖","😠","✋"]
+
+        },
+        {
+          "image_file": "58499f8b26191c779d22d931.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "58499fdb26191c779d22d935.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+
+        {
+          "image_file": "584999a27b7d4d76317f5ffe.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "584999aa7b7d4d76317f5fff.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "584999b17b7d4d76317f6000.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "584999ba7b7d4d76317f6001.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5849972e7422de75c36182d1.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5849976d7422de75c36182d6.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "5849978e7422de75c36182d8.webp",
+          "emojis": ["😖","😠","✋"]
+        },
+        {
+          "image_file": "584999937b7d4d76317f5ffd.webp",
+          "emojis": ["😖","😠","✋"]
+        }
+      ]
+    }
+  ]
+}
