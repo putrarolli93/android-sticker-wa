@@ -68,7 +68,6 @@ private void checkApplicationIdInDebug() {
     }
 }
 
-
 task checkRelease {
     doLast {
         println("checkRelease")
